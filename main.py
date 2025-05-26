@@ -8,7 +8,7 @@ import numpy as np
 max_num_hands = 1 # 최대 몇 개의 손을 인식할 건지 정의
 my_gesture = {
     0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five',
-    6: 'six', 7: 'pig', 8: 'spiderman', 9: 'yeah', 10: 'ok', 11: 'fy'
+    6: 'k-heart', 7: 'pig', 8: 'racist', 9: 'heart', 11: 'fy'
 }
 
 # 2. Mediapipe hands model (모델 1 - 손 감지 모델)
