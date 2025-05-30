@@ -21,6 +21,9 @@ label = file[:, -1].astype(np.float32)
 knn = cv2.ml.KNearest_create()
 knn.train(angle, cv2.ml.ROW_SAMPLE, label)
 
+np.savez('knn_train_data.npz', angle=angle, label=label)
+print("Saved training data!")
+
 # DepthAI pipeline definition
 pipeline = dai.Pipeline()
 cam_rgb = pipeline.createColorCamera()
