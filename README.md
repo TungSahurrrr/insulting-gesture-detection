@@ -9,10 +9,12 @@
 
 - 🎥 **실시간 웹캠 영상 처리**
 - ✋ MediaPipe 기반 **손 랜드마크 추출**
-- 🧠 **KNN 모델 기반 손동작 분류기**
+- 🧠 **KNN, DNN 모델 기반 손동작 분류기**
 - 🚫 **폭력적 제스처(예: middle fingers up)** 에 대해 자동 **모자이크 처리**
 - ⚡ 개발 기간: **약 14일**
-
+---
+ ## DNN 모델 구조도
+ <img src="https://github.com/user-attachments/assets/7939b9e8-14b9-495a-95c1-64171760fdb5" width="500"/>
 ---
 
 ## 💡 기대 효과
@@ -29,7 +31,7 @@
 |-----------------|-------------------------------|
 | 손 인식         | MediaPipe (Hands)             |
 | 실시간 영상     | OpenCV                        |
-| 제스처 분류     | CV2 (KNN)                     |
+| 제스처 분류     | CV2 (KNN, DNN)                |
 | 전처리 특징     | 손가락 관절 간 각도 15개      |
 | 모델 학습 파일  | CSV 기반 학습 데이터          |
 
@@ -38,3 +40,28 @@
 ## 🚀 실행 방법
 
 ### 1. 프로젝트 클론
+```bash
+git clone https://github.com/your-username/insulting-gesture-blur.git
+cd insulting-gesture-blur
+```
+
+### 2. 필수 라이브러리 설치
+```bash
+pip install opencv-python mediapipe tensorflow numpy
+```
+
+### 3. 실행
+```bash
+python DNN_main.py
+```
+---
+
+## 📈 향후 개선 방향
+- 다양한 손동작 제스처 클래스 확대
+- CNN/LSTM 기반 분류기로 정확도 향상
+- 비디오 파일이나 스트리밍 플랫폼에 적용
+- 음성 감정 분석 등 멀티모달 감지 연계
+
+## 👨‍💻 개발자
+- 이름: [KingHamster](https://github.com/KingHasmter), [Sirius912](https://github.com/Sirius912), 
+- 개발 기간: 2025년 5월, 약 14일 소요
