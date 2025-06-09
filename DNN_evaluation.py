@@ -59,3 +59,7 @@ disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=[str(i) for i 
 disp.plot(cmap=plt.cm.Blues, xticks_rotation=45)
 plt.title("Confusion Matrix")
 plt.show()
+
+# 정확도 계산
+accuracy = np.sum(np.array(y_true) == np.array(y_pred)) / len(y_true)
+print(f"Accuracy: {accuracy:.4f}")
