@@ -12,7 +12,9 @@
 - 🧠 **KNN, DNN 모델 기반 손동작 분류기**
 - 🚫 **폭력적 제스처(예: middle fingers up)** 에 대해 자동 **모자이크 처리**
 - ⚡ 개발 기간: **약 14일**
-
+---
+ ## DNN 모델 구조도
+ <img src="https://github.com/user-attachments/assets/7939b9e8-14b9-495a-95c1-64171760fdb5" width="500"/>
 ---
 
 ## 💡 기대 효과
@@ -62,4 +64,4 @@ python DNN_main.py
 
 ## 👨‍💻 개발자
 - 이름: [KingHamster](https://github.com/KingHasmter), [Sirius912](https://github.com/Sirius912), 
-- 개발 기간: 2025년 5월, 약 7일 소요
+- 개발 기간: 2025년 5월, 약 14일 소요
