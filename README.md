@@ -14,7 +14,8 @@
 - ⚡ 개발 기간: **약 14일**
 ---
  ## DNN 모델 구조도
- <img src="https://github.com/user-attachments/assets/7939b9e8-14b9-495a-95c1-64171760fdb5" width="500"/>
+ <img src="https://github.com/user-attachments/assets/a8053d4f-899e-43bb-99ca-e3e8506596f9" width="500"/>
+ 
 ---
 
 ## 💡 기대 효과
@@ -63,5 +64,5 @@ python DNN_main.py
 - 음성 감정 분석 등 멀티모달 감지 연계
 
 ## 👨‍💻 개발자
-- 이름: [KingHamster](https://github.com/KingHasmter), [Sirius912](https://github.com/Sirius912), 
+- 이름: [KingHamster](https://github.com/KingHasmter), [Sirius912](https://github.com/Sirius912), [kastroto629](https://github.com/orgs/TungSahurrrr/people/kastroto629), [kimsoyeon744](https://github.com/orgs/TungSahurrrr/people/kimsoyeon744)
 - 개발 기간: 2025년 5월, 약 14일 소요
